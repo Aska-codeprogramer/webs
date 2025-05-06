@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOVE</title>
+    <style>
+        body {
+            background-color: black;
+        }
+        .container {
+            background-color: none;
+            position: relative;
+            top: 200px;
+        }
+        .list {
+            list-style: none;
+            text-align: center;            
+        }
+        .ul-li {
+            filter: blur(5px);
+            transition: 1s;
+        }
+        .ul-li:hover {
+            filter: blur(0);
+        }
+        img {
+            border-radius: 30px;
+            transition: 1s;
+        }
+        img:hover {
+            box-shadow: 0 0 50px white;
+        }
+        .list-love {
+            text-align: center;
+            color: black;
+            list-style: none;
+            font-family: Arial, Helvetica, sans-serif;
+            text-transform: uppercase;
+            position: relative;
+            top: -30px;
+            font-size: 15px;
+            letter-spacing: 1px;
+            transition: 0,5;
+           
+        }
+        .list-love:hover {
+            color: black;
+            text-shadow: 0 0 50px black,
+            0 0 80px black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <ul class="ul-li">
+            <li class="list"><img src="gambar7.jpg" alt="logo" title="love" width="200px" height="200px"></li>
+            <li class="list-love">love you</li>
+        </ul>
+    </div>
+    
+</body>
+</html>
